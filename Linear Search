@@ -1,0 +1,19 @@
+def linear_Search(arr,n,val):
+        for i in range(0,n):
+                if arr[i]==val:
+                        return i
+        return -1        
+
+                
+
+
+list=[1,2,5,46,7542,3245]
+n=len(list)
+value=int(input("enter the value"))
+res=linear_Search(list,n,value)
+
+if (res==-1):
+        print("value not found")
+else:
+        print("value is found and index is ",res)
+    
